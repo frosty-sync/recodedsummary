@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+}
+.card{
+    background-color: white;
+  
+    width: 24%;
+    height: 83%;
+    border-radius: 10px;
+}
+.hero{
+    width: 99.9%;
+    border-radius: 10px 10px 0 0;
+    font-weight: 900;
+}
+.head{
+    padding-top: 0.8rem;
+    margin:1rem 0 2srem 0;
+    text-align: center;
+}
+.subhead{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.plancontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:hsl(225, 100%, 98%);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+
+
+}
+.planinfo{
+    margin-left: 0.8rem;
+    font-size: 16px;
+}
+.plantext{
+    padding: 0;
+    margin: 0;
+
+}
+.price{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+
+}
+.plan{
+    display: flex;
+}
+.icon{
+ margin-left: 0.2rem;
+    
+}
+button{
+    font-size: 1rem;
+    padding: 1rem  1.5rem ;
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 1rem;
+
+   
+}
+.proceed{
+width:75% ;
+    margin-left: 2.8rem;
+    color: white;
+background-color:  hsl(245, 75%, 52%);
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cancel{
+    width: 75%;
+    margin-left: 2.8rem;
+}
+
+
